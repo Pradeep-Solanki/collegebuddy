@@ -1,37 +1,225 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/Renoxr8/collagebuddy/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-### Markdown
+    <title> PR InfoTech
+    </title>
+</head>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<body>
+    <style>
+        nav.navebar {
+            position: relative;
+        }
+    </style>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid  ">
+            <a class="navbar-brand" href="#">PR InfoTech</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            First Year
 
-```markdown
-Syntax highlighted code block
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="\First year\Syllabus\Syllabus.html">Syllabus</a></li>
+                            <li><a class="dropdown-item" href="\First year\Mathematics-I\Mathematics-i.html">Mathematics-I</a></li>
+                            <li><a class="dropdown-item" href="\First year\Mathematics-II\Mathematics-ii.html">Mathematics-II</a></li>
+                            <li><a class="dropdown-item" href="\First year\Physics-I\Physics-i.html">Physics-I</a></li>
+                            <li><a class="dropdown-item" href="\First year\Physics-II\Physics-ii.html">Physics-II</a></li>
+                            <li><a class="dropdown-item" href="\First year\Applied Chemistry\AppliedChemistry.html">Applied Chemistry</a></li>
+                            <li><a class="dropdown-item" href="\First year\Environment & Ecology\Environment&Ecology.html">Environment & Ecology</a>
+                            </li>
+                            <li><a class="dropdown-item" href="\First year\Data Structures\DataStructure.html">Data Structures</a></li>
+                            <li><a class="dropdown-item" href="\First year\Basic Electrical Engineering\BasicElectricalEngineering.html">Basic Electrical
+                                    Engineering</a></li>
+                            <li><a class="dropdown-item" href="\First year\Basic Mechinical Engineering\BasicMechinicalEngineering.html">Basic Mechinical
+                                    Engineering</a></li>
+                            <li><a class="dropdown-item" href="\First year\Basic BioScience\BasicBioScience.html">Basic Bio Science</a></li>
+                            <li><a class="dropdown-item" href="\First year\Basic BioMedical Engineering\BasicBioMedical.html">Basic Bio Medical</a></li>
+                            <li><a class="dropdown-item" href="\First year\Computer Programming\ComputerProgramming.html">Computer Programming</a>
+                            </li>
+                            <li><a class="dropdown-item" href="\First year\Engineering Graphics\EngineeringGraphics.html">Engineering Graphics</a>
+                            </li>
+                            <li><a class="dropdown-item" href="\First year\Communication Skills\CommunicationSkills.html">Communication Skills</a>
+                            </li>
 
-# Header 1
-## Header 2
-### Header 3
+                            <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Labs</a></li>
+                    <li><a class="dropdown-item" href="PhysicsLab.html">Physics Lab-I & II</a></li>
+                    <li><a class="dropdown-item" href="ChemLab.html">Chem Lab-I & II</a></li>
+                    <li><a class="dropdown-item" href="Workshop.html">WorkShop</a></li>
 
-- Bulleted
-- List
+                    <li><a class="dropdown-item" href="Yoga.html">Yoga</a></li>
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+                    </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Second Year
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">2nd Year CSE</a></li>
+                            <li><a class="dropdown-item" href="#">2nd Year IT</a></li>
+                            <li><a class="dropdown-item" href="#">2nd Year Elex.and comm.Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">2nd Year Electrical Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">2nd Year Mechinical Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">2nd Year civil Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">2nd Year Metallurgy Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">2nd Year Mining Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">2nd Year Biomedical Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">2nd Year Bio Technology Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">2nd Year Chemical Engineering</a></li>
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Renoxr8/collagebuddy/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Third Year
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">3rd Year CSE</a></li>
+                            <li><a class="dropdown-item" href="#">3rd Year IT</a></li>
+                            <li><a class="dropdown-item" href="#">3rd Year Elex.and comm.Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">3rd Year Electrical Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">3rd Year Mechinical Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">3rd Year civil Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">3rd Year Metallurgy Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">3rd Year Mining Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">3rd Year Biomedical Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">3rd Year Bio Technology Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">3rd Year Chemical Engineering</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Fourth Year
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">4rth Year CSE</a></li>
+                            <li><a class="dropdown-item" href="#">4rth Year IT</a></li>
+                            <li><a class="dropdown-item" href="#">4rth Year Elex.and comm.Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">4rth Year Electrical Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">4rth Year Mechinical Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">4rth Year civil Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">4rth Year Metallurgy Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">4rth Year Mining Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">4rth Year Biomedical Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">4rth Year Bio Technology Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">4rth Year Chemical Engineering</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Books
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#"> Books Of CSE</a></li>
+                            <li><a class="dropdown-item" href="#">Books Of IT</a></li>
+                            <li><a class="dropdown-item" href="#">Books Of Elex.and comm.Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">Books Of Electrical Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">Books Of Mechinical Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">Books Of civil Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">Books Of Metallurgy Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">Books Of Mining Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">Books Of Biomedical Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">Books Of Bio Technology Engineering</a></li>
+                            <li><a class="dropdown-item" href="#">Books Of Chemical Engineering</a></li>
+                        </ul>
+                    </li>
 
-### Support or Contact
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://source.unsplash.com/1600x500/?nature,waterEducation,light,thoughts" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>WELCOME</h5>
+                    <p>Find Solution.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x500/?nature,light,goodthoughts" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Collage Buddy</h5>
+                    <p>Here Every thing for Student.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x500/?nature,water,light,codding,nitrr" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Read that you Want</h5>
+                    <p>Enjoy The jurney.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <style>
+        div.container {
+            margin-top: 1cm;
+            align-items: center;
+        }
+    </style>
+    <div class="card">
+        <div class="card-header">
+            Quote
+        </div>
+        <div class="card-body">
+            <blockquote class="blockquote mb-0">
+                <p>The more that you read, the more things you will know, the more that you learn, the more places you’ll go.”</p>
+                <footer class="blockquote-footer"> Dr. Seuss <cite title="Source Title"> PRS</cite></footer>
+            </blockquote>
+        </div>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin="anonymous "></script>
+    -->
+</body>
+
+</html>
