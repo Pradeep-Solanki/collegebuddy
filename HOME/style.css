@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.Menu-bar {
+    margin-right: 0;
+    background: rgb(0, 100, 0);
+    text-align: center;
+}
+
+.Menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.Menu-bar ul li {
+    width: 100px;
+    margin: 15px;
+    padding: 15px;
+}
